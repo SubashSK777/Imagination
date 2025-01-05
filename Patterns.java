@@ -5,10 +5,11 @@ public class Patterns {
         System.out.print(" * ");
       } System.out.println();
     }
-
-  public static void NumberTriangle (int n) {
-    for (int i = 0;)
   }
+
+  public static void NumberTriangle(int n){
+    int sum
+  
 
   }
   public static void main(String[] args) {
