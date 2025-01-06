@@ -15,9 +15,6 @@ public class Patterns {
                         } else {
                           System.out.print("  ");
                         }
-                        if ((i + j) % 2 == 0 && j > n/2  ) {
-                          System.out.print(" * ");
-                        }
                       }System.out.println();
                     }
   }
