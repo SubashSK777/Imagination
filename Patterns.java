@@ -17,6 +17,6 @@ public class Patterns {
 
   }
   public static void main(String[] args) {
-    Triangle(7);
+    // Triangle(7);
   }
 }
