@@ -7,8 +7,8 @@ public class Patterns {
     }
   }
 
-  public static void NumberTriangle(int n){
-    int sum
+  public static void Arrow(int n){
+    
   
 
   }
