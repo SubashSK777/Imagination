@@ -10,18 +10,37 @@ public class Patterns {
   public static void UpArrow(int n){
     for (int i = 0; i <= n; i++) {
       for (int j = 0; j <= n; j++) {
-        if (j == n/2 || i + j == 3 || ) {
-          System.out.print(" *");
+        if (j == n/2 || i + j == n/2 ) {
+          System.out.print(" * ");
         } else {
           System.out.print("  ");
         }
+        if ((i + j) % 2 == 0 && j > n/2  ) {
+          System.out.print(" * ");
+        }
       }System.out.println();
     }
-  
+  }
 
+  public static void UpwardArrow (int n) {
+    for (int i = 0; i < n ; i++) {
+      for (int j = 0; j < n - i - 1; j++){
+        if (j == n / 2) {
+          System.out.print(" * ");
+        } else {
+          System.out.print("   "); 
+        }
+      } for (int k = 0; k < 2*i+1; k++){
+         if (k == 0 ){
+           System.out.print(" * ");
+       }
+      }
+      System.out.println();
+    }
   }
   public static void main(String[] args) {
     // Triangle(7);
-    UpArrow(6);
+     UpArrow(12);
+    // UpwardArrow(5);
   }
 }
