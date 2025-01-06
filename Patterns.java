@@ -7,7 +7,7 @@ public class Patterns {
     }
   }
 
-  public static void Arrow(int n){
+  public static void UpArrow(int n){
     
   
 
