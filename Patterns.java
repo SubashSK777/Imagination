@@ -20,6 +20,6 @@ public class Patterns {
   }
     public static void main(String[] args) {
     // Triangle(7);
-    UpArrow(20, f);
+    UpArrow(12, '#');
   }
 }
