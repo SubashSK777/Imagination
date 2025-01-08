@@ -6,5 +6,6 @@ n = len(arr)
 
 for i in range (n):
   for j in range (n):
-    if 
+    if arr[i] in arr[j]:
+      count += 1
   
