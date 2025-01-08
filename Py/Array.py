@@ -22,7 +22,7 @@ while (len(base) > 0):
     if (base * remax == maxi and base * remini == mini):
       print(base)
       break
-    else:
-      base = base[:-1]
+  else:
+    base = base[:-1]
 
 print("Errorrrrrrrrrrr")
