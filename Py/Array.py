@@ -22,11 +22,12 @@ def returning(str1 , str2):
     print(len(base))
     if (nmax % len(base) == 0 and nmini % len(base) == 0):
       remax = nmax // len(base)
-      remini = nmini // len(base)
-      
+      remini = nmini // len(base)   
       if (base * remax == maxi and base * remini == mini):
         return (base)
-        
     else:    
       base = base.removesuffix(base[-1])
   return ""
+
+
+print(returning("abaaba","aba"))
