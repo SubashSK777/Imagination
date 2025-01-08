@@ -25,12 +25,12 @@ while (len(base) > 0):
     remini = nmini // len(base)
     
     if (base * remax == maxi and base * remini == mini):
-      print(base)
-      break
+      return (base)
+      
   else:
     
     base = base.removesuffix(base[-1])
-    print(base)
+  
     
 
 print("Errorrrrrrrrrrr")
