@@ -8,5 +8,4 @@ comp = target - arr[0]
 
 map [arr[comp]] = 0
 
-
 print(map)
