@@ -26,5 +26,6 @@ while (len(base) > 0):
     
     base = base[:-1]
     print(base)
+    break
 
 print("Errorrrrrrrrrrr")
