@@ -4,8 +4,6 @@ arr = [2, 7, 11, 15]
 
 target = 9
 
-comp = target - arr[0] 
+i = 0
 
-map [arr[comp]] = 0
 
-print(map)
