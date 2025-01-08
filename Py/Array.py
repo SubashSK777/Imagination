@@ -15,4 +15,8 @@ nmini = len(mini)
 
 while (len(base) > 0):
   if (nmax % len(base) == 0 and nmini % len(base) == 0):
-    remax = 
+    remax = nmax / len(base)
+    remini = nmini / len(base)
+    
+    if (base * remax == maxi and base * remini == mini):
+      return 
