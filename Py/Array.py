@@ -30,4 +30,4 @@ def returning(str1 , str2):
   return ""
 
 
-print(returning("abaaba","aba"))
+print(returning("abaaba","ab"))
