@@ -14,4 +14,6 @@ map[arr[i]] = i
 
 print (map)
 
-print [map[comp] , i]
+j = [map[comp] , i]
+
+print(j)
