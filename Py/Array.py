@@ -10,5 +10,8 @@ else:
   maxi = str2
   mini = str1
   
+nmax = len(maxi)
+nmini = len(mini)
 
-while 
+while (len(base) > 0):
+  if (na)
