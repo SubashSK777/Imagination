@@ -14,6 +14,7 @@ nmax = len(maxi)
 nmini = len(mini)
 print("..............")
 while (len(base) > 0):
+  print(len(base))
   if (nmax % len(base) == 0 and nmini % len(base) == 0):
     remax = nmax / len(base)
     remini = nmini / len(base)
