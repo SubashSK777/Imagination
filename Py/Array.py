@@ -23,6 +23,6 @@ while (len(base) > 0):
       print(base)
       break
     else:
-      print(base.pop())
+      
 
 print("Errorrrrrrrrrrr")
