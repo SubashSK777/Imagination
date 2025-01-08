@@ -19,4 +19,9 @@ while (len(base) > 0):
     remini = nmini / len(base)
     
     if (base * remax == maxi and base * remini == mini):
-      return 
+      print(base)
+      break
+    else:
+      base.pop()
+
+print("Errorrrrrrrrrrr")
