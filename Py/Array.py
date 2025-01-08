@@ -14,4 +14,5 @@ nmax = len(maxi)
 nmini = len(mini)
 
 while (len(base) > 0):
-  if (na)
+  if (nmax % len(base) == 0 and nmini % len(base) == 0):
+    remax = 
