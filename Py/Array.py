@@ -24,7 +24,7 @@ while (len(base) > 0):
       break
   else:
     
-    base = base[:-1]
+    base = base.removesuffix(base[-1])
     print(base)
     
 
