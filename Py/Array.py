@@ -9,6 +9,6 @@ comp = target - arr[0]
 map [comp] = 0
 
 comp = target - arr[1] 
-map [comp] = 1
+map [arr[comp]xcvn;lkmjn vcv5] = 1
 
 print(map)
