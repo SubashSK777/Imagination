@@ -12,14 +12,12 @@ def returning(str1 , str2):
     
   nmax = len(maxi)
   nmini = len(mini)
-  print("..............")
   count = 0
   while (len(base) > 0):
     if count == 1 :
       break
     if len(base) == 1:
       count += 1
-    print(len(base))
     if (nmax % len(base) == 0 and nmini % len(base) == 0):
       remax = nmax // len(base)
       remini = nmini // len(base)   
