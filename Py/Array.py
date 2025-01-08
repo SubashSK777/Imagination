@@ -8,9 +8,10 @@ comp = target- arr[0]
 map[arr[0]] = 0
 
 i = 1
-comp = target- arr[i]
+comp = target - arr[i]
 map[arr[i]] = i
 
 
 print (map)
 
+print [ , i]
