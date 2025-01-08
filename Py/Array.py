@@ -15,7 +15,10 @@ nmini = len(mini)
 print("..............")
 count = 0
 while (len(base) > 0):
-  if count == 0
+  if count == 2 :
+    break
+  if len(base) == 1:
+    count
   print(len(base))
   if (nmax % len(base) == 0 and nmini % len(base) == 0):
     remax = nmax / len(base)
