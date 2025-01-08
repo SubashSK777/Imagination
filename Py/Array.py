@@ -16,13 +16,15 @@ print("..............")
 while (len(base) > 0):
   print(len(base))
   if (nmax % len(base) == 0 and nmini % len(base) == 0):
-    remax = nmax // len(base)
+    remax = nmax / len(base)
     remini = nmini / len(base)
     
     if (base * remax == maxi and base * remini == mini):
       print(base)
       break
   else:
+    
     base = base[:-1]
+    print(base)
 
 print("Errorrrrrrrrrrr")
