@@ -25,6 +25,8 @@ def returning(str1 , str2):
       remini = nmini // len(base)   
       if (base * remax == maxi and base * remini == mini):
         return (base)
+      else:    
+        base = base.removesuffix(base[-1])
     else:    
       base = base.removesuffix(base[-1])
   return ""
