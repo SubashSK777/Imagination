@@ -1,13 +1,13 @@
-arr = ["a","aba","ababa","aa"]
+words = ["a","aba","ababa","aa"]
 
 count = 0
+        
+length = len(words)
 
-n = len(arr)
-
-for i in range (n):
-  for j in range (n):
-    if arr[i] in arr[j]:
-      count += 1
-      
-print(count)
-  
+for i in range (length):
+  n = len(words[i])
+  for j in range (length):
+    if i != j:
+      if words[i] == words[j[:n]] and words[i] == words[j[-n:]]:
+                        count += 1
+        return count  
