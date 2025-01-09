@@ -44,6 +44,8 @@ for i in arr:
   if i < mini:
     mini = i 
   else:
-    profit = 
+    profit = i - mini
+    
+print(profit)
     
 
