@@ -6,8 +6,8 @@ for i in range(1, 9):
   
 print(sum)
 
-n = 5
+n = 10
 
-ln = n << 3
+ln = n >> 2
 
 print(ln)
