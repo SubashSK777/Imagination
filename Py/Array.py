@@ -34,9 +34,3 @@
 
 arr = [1, 3, 5, 0, 0, 4]
 
-for i in arr:
-  if i == 0:
-    chang = arr.pop(i)
-    arr.append(chang)
-    	        
-print(arr)
