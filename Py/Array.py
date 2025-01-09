@@ -45,6 +45,7 @@ for i in arr:
     mini = i 
   else:
     profit = i - mini
+    max_profit = max(profit, max_profit)
     
 print(profit)
     
