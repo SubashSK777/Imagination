@@ -32,5 +32,7 @@
 
 # print(returning("abaaba","ab"))
 
-arr = [1, 3, 5, 0, 0, 4]
+arr = [7, 1, 5, 3, 6, 4]
+
+mini = (float)
 
