@@ -1,4 +1,6 @@
+import math
 # str1 = "ABABABAB"
+
 # str2 = "ABA"
 # def returning(str1 , str2):
 #   if len(str1) > len(str2):
@@ -34,5 +36,5 @@
 
 arr = [7, 1, 5, 3, 6, 4]
 
-mini = (float)
+mini = math.inf
 
