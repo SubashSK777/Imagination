@@ -31,3 +31,9 @@
 
 
 # print(returning("abaaba","ab"))
+
+x =2 
+
+a = x++
+
+b = x + a
