@@ -8,5 +8,5 @@ if len(str1) > len(str2):
 else:
   pref = str1
   maxi = str2
-  mini 
+  mini = str
 
