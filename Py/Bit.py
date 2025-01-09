@@ -5,4 +5,4 @@ for i in range (2, int(n**0.5) + 1):
     print("Prime")
     break
 else:
-print("Not Prime")
+  print("Not Prime")
