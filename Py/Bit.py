@@ -11,3 +11,5 @@ n = 10
 ln = n >> 2
 
 print(float(ln))
+
+print (num -- n)
