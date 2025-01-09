@@ -18,6 +18,8 @@ public class Patterns {
                       }System.out.println();
                     }
   }
+
+  
     public static void main(String[] args) {
     // Triangle(7);
     UpArrow(12, '#');
