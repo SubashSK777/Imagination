@@ -40,5 +40,6 @@ mini = math.inf
 max_profit = 0
 
 for i in arr:
-  if i < mini
+  if i < mini:
+    mini = i 
 
