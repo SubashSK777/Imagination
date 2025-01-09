@@ -32,10 +32,11 @@
 
 # print(returning("abaaba","ab"))
 
-x =2 
+arr = [1, 3, 5, 0, 0, 4]
 
-X++ = x+1
-
-b = x + a
-
-print(b)
+for i in arr:
+  if i == 0:
+    chang = arr.pop(i)
+    arr.append(chang)
+    	        
+print(arr)
