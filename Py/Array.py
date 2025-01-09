@@ -47,6 +47,6 @@ for i in arr:
     profit = i - mini
     max_profit = max(profit, max_profit)
     
-print(profit)
+print(max_profit)
     
 
