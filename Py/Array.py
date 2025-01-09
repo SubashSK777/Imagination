@@ -37,4 +37,5 @@ import math
 arr = [7, 1, 5, 3, 6, 4]
 
 mini = math.inf
+max_profit = 0
 
