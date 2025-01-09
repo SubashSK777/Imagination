@@ -1,7 +1,7 @@
-a = 2
-b = 3
+num = 5
+sum = 0
 
-la = a << 1
-lb = b << 1
-
-print (a - - b)
+for i in range(1, 9):
+  sum += sum
+  
+print (sum)
