@@ -24,7 +24,6 @@ def maxSubArray(nums):
           inte_sum += nums[j]
 
           big_val = max(big_val, inte_sum)
-          print("b3 = ", big_val)
 
   return big_val
 
