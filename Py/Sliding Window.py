@@ -1,3 +1,3 @@
 num = [1,2,3,4]
 
-print(num[:])
+print(num[:0] * num[1:])
