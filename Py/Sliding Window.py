@@ -1,9 +1,3 @@
-a = "acb"
+num = [1,2,3,4]
 
-b = "bac"
-
-if sorted(a) == sorted(b):
-    print("Potri is a Pussy")
-else:
-    print("Pussy is a Potri")
-    
+print(num[:])
