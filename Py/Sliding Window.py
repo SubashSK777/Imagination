@@ -1,5 +1,4 @@
-num = [1,2,3,4]
+num = [-1,2,-3,4]
 
-if num.isempty:
+num**2
 
-  print(num[:0] * num[1:])
