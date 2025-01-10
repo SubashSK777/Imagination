@@ -1,7 +1,5 @@
 import math
 
-
-
 def maxSubArray(nums):
 
   if len(nums) == 1:
