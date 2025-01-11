@@ -1,8 +1,7 @@
-num = [-1,2,4,-3]
+ones = 4
+zeros = 2
+negs = 2
 
-for i in range(len(num)):
-  num[i] = num[i]**2
-  
-
-print (sorted(num))
+k = 5
+l = 4
 
