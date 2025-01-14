@@ -4,6 +4,7 @@ class Man:
     self.lname = lname
     
   def Student(detai):
-    print(detai.fnanme, detai.lname)
+    print(detai.fname, detai.lname)
     
-x = Man("John")
+x = Man("John", "Doe")
+x.Student()
