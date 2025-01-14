@@ -1,9 +1,7 @@
-import math
+from itertools import permutations
 
-arr =  [1, 2, 3, 4, 5]
+# Example: Generate permutations of a list [1, 2, 3]
+data = [1, 2, 3]
+result = list(permutations(sum(data))
 
-mini = arr[1:]
-maxi = arr[:-1]
-
-print(sum(mini))
-print(sum(maxi))
+print(result)
