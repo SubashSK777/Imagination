@@ -6,4 +6,4 @@ mini = arr[1:]
 maxi = arr[:-1]
 
 print(sum(mini))
-print(maxi)
+print(sum(maxi))
