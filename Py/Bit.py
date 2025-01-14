@@ -8,7 +8,7 @@ max_val = 0
 
 while(l <= r):
   min_val = min(arr[l], arr[r])
-  curr_val = min_val * iteri
+  curr_val = (r - l) * iteri
   max_val = max(curr_val, max_val)
   
   if arr[l] < arr[r]:
