@@ -3,5 +3,7 @@ class Man:
     self.fname = fname
     self.lname = lname
     
-  def Student(detail):
-    print
+  def Student(detai):
+    print(detai.fnanme, detai.lname)
+    
+x = Man("John")
