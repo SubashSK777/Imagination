@@ -1,5 +1,5 @@
 import math
 
-arr =  [0, 1 ]
+arr =  [1, 2, 3, 4, 5]
 
-print (len(arr))
+mini = arr[:]
