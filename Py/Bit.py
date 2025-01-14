@@ -2,7 +2,6 @@ arr = [1,8,6,2,5,4,8,3,7]
 
 l = 1
 r = len(arr) - 1
-iteri = len(arr)
 curr_val = 0
 max_val = 0
 
@@ -16,7 +15,6 @@ while(l <= r):
   else:
     r -= 1
     
-  iteri -= 1
   
 print(max_val)
   
