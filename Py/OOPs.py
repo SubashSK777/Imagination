@@ -1,6 +1,5 @@
 import math
 
-arr =  [0, 1 ,2 ]
+arr =  [0, 1 ]
 
-for i in range(len(arr)):
-  print(i)
+print (len(arr))
