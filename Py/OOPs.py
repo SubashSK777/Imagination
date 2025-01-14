@@ -1,7 +1,6 @@
 import math
 
-arr =  [0, 1 ,2 ,4, 6, 5, 3]
+arr =  [0, 1 ,2 ]
 
-n = math.floor(len(arr)/2)
-
-print(n)
+for i in range(len(arr)):
+  print(i)
