@@ -1,7 +1,14 @@
+from itertools import combinations
 from itertools import permutations
 
-# Example: Generate permutations of a list [1, 2, 3]
 data = [1, 2, 3]
-result = sum(sum(p) for p in permutations(data))  # Sum each permutation and then sum all of them
+sumu = 0
+c = []
+for j in range(1): 
+  perm = combinations(data, 3)
+  for i in perm:
+    c.append(i)
+    
+    
 
-print(result)
+print(c)
