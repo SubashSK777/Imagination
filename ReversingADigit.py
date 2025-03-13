@@ -9,3 +9,5 @@ def Reverse(n):
         n //= 10
 
     return rev_n
+
+print(Reverse)
