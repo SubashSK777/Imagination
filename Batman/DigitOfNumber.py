@@ -1,3 +1,4 @@
 n = 1234
 
-whi
+while n > 0:
+    di
