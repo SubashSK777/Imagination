@@ -1,3 +1,4 @@
 n = 1467
 
-def Reverse
+def Reverse(n):
+    r
