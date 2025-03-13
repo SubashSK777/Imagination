@@ -10,5 +10,6 @@ def SumOfDigits(n):
 
     return sum
 
+def OptimizedSumO
 
 print(SumOfDigits(n))
