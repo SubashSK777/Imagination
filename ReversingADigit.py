@@ -6,4 +6,6 @@ def Reverse(n):
         digit = n % 10
         rev_n += digit
         rev_n *= 10
-        n
+        n //= 10
+
+    return rev_n
