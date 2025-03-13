@@ -11,5 +11,8 @@ def Reverse(n):
     return rev_n
 
 def OptimizedRev(n):
+    s = str(n)[::-1]
+    return s
 
-print(Reverse(n))
+
+print(Revers(n))
