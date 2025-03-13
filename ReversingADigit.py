@@ -1,4 +1,5 @@
 n = 1467
 
 def Reverse(n):
-    r
+    rev_n = 0
+    wh
