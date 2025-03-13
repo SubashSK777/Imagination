@@ -11,7 +11,7 @@ def Reverse(n):
     return rev_n
 
 def OptimizedRev(n):
-    
+    return str(n).rstrip()
 
 
 print(OptimizedRev(n))
