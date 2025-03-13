@@ -10,6 +10,6 @@ def Reverse(n):
 
     return rev_n
 
-de
+def OptimizedRev(n):
 
 print(Reverse(n))
