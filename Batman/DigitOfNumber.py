@@ -18,4 +18,4 @@ def OptimizedSumOfDigits(n):
 
     return sum
 
-print(OptimizedSumOfDigits(n))
+print(SumOfDigits(n))
