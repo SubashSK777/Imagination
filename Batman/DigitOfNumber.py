@@ -14,6 +14,8 @@ def OptimizedSumOfDigits(n):
     s = str(n)
     sum = 0
     for i in s:
-        su
+        sum += int(i)
+
+    return sum
 
 print(SumOfDigits(n))
