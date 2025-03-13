@@ -15,4 +15,4 @@ def OptimizedRev(n):
     return s
 
 
-print(Revers(n))
+print(OptimiRev(n))
