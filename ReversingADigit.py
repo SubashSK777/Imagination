@@ -1,4 +1,4 @@
-n = 1467
+n = 14670
 
 def Reverse(n):
     rev_n = 0
@@ -11,7 +11,7 @@ def Reverse(n):
     return rev_n
 
 def OptimizedRev(n):
-    s = str(n).rstrip("0)[::-1]
+    s = str(n).rstrip("0")[::-1]
     return s
 
 
