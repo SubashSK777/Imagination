@@ -8,4 +8,7 @@ def SumOfDigits(n):
         sum += digit
         n //= 10
 
-    return(sum
+    return sum
+
+
+print(SumOfDigits(n))
