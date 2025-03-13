@@ -5,4 +5,5 @@ def Reverse(n):
     while n > 0:
         digit = n % 10
         rev_n += digit
-        rev_n 
+        rev_n *= 10
+        n
