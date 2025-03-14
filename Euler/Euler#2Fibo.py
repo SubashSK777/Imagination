@@ -1,16 +1,14 @@
 num1  = 0 
 num2 = 1
-n = 
-
 
 summ = 0
-while n - 2 > 0 :
+while n - 2 > :
     temp = num1
     num1 = num2
     num2 = temp + num1
     if num2 % 2 == 0: 
         summ += num2
-    n -= 1
+    
 
 print(summ)
 
