@@ -2,12 +2,12 @@ n = int(input())
 arr = list(map(int, input().split()))
 l = len(arr)
 
-count = 
+count = 0
 def shift(l, arr,count):
     
     for i in range(len(arr)):
-        if arr[i] % 2 == 1:
-            print(arr[i])
+        if arr[i] % 2 == :
+            print(arr)
             return count
         
         else:
