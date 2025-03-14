@@ -5,4 +5,7 @@ l = len(arr)
 for i in range(l):
     if arr[i] % 2 == 0:
         arr[i] //= 2
-        
+    else:
+        re
+
+    
