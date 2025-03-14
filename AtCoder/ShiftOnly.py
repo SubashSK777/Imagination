@@ -1,8 +1,8 @@
 n = int(input())
 arr = list(map(int, input().split()))
 l = len(arr)
-
 count = 0
 
+flag = 0
 
-print(shift(l, arr, count))
+while fl
