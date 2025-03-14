@@ -8,10 +8,10 @@ def shift(l, arr,count):
     for i in range(len(arr)):
         if arr[i] % 2 == 0:
             
-            return 1
+            return 
         
         else:
-            return count
+            arr[i] = arr[i]//2
     count += 1
     shift(l, arr,count)
 
