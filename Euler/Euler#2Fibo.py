@@ -13,7 +13,7 @@
 #     print(num2, end= " ")
 #     n -= 1
 
-def fi(n):
+def fib(n):
     if n == 0:
         return 0
     
@@ -21,4 +21,4 @@ def fi(n):
         return 1
     
     else:
-        return rec
+        return fib(n - 1) + fi
