@@ -21,4 +21,6 @@ def fib(n):
         return 1
     
     else:
-        return fib(n - 1) + fi
+        return fib(n - 1) + fib(n - 2)
+    
+print()
