@@ -13,7 +13,7 @@
 #     print(num2, end= " ")
 #     n -= 1
 
-def recursion(n):
+def fi(n):
     if n == 0:
         return 0
     
@@ -21,4 +21,4 @@ def recursion(n):
         return 1
     
     else:
-        
+        return rec
