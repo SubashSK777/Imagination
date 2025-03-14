@@ -1,2 +1,4 @@
 n = int(input())
-arr = (map(int, input().split()))
+arr = list(map(int, input().split()))
+
+pr
