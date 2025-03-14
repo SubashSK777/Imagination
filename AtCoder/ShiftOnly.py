@@ -7,7 +7,7 @@ def shift(l, arr):
     count = 0
     for i in range(l):
         if arr[i] % 2 == 0:
-            arr[i] //= 28
+            arr[i] /= 28
         else:
             return count
     count += 1
