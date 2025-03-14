@@ -7,7 +7,7 @@ flag = 1
 
 while flag:
     for i in range(l):
-        if arr[i] % 2 == 0 a:
+        if arr[i] != 0 and arr[i] % 2 == 0:
             arr[i] = arr[i]//2
         else:
             print(count)
