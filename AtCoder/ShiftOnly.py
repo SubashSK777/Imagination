@@ -11,6 +11,6 @@ def shift(l, arr):
         else:
             return count
     count += 1
-    shift(l, arr)
+    shift()
 
 print(shift(l, arr))
