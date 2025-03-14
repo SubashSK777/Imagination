@@ -13,4 +13,4 @@ def shift(l, arr):
     count += 1
     shift(l, arr)
 
-print(shift(l))
+print(shift(l, arr))
