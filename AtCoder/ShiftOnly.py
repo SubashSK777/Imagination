@@ -3,6 +3,7 @@ arr = list(map(int, input().split()))
 l = len(arr)
 count = 0
 
-flag = 0
+flag = 1
 
-while fl
+while flag:
+    for i in rang
