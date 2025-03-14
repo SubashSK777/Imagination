@@ -10,6 +10,7 @@ def shift(l, arr):
             arr[i] //= 2
         else:
             return count
-    c
+    count += 1
+    
 
     
