@@ -1,6 +1,6 @@
 num1  = 0 
 num2 = 1
-n = 20
+n = 
 
 
 summ = 0
