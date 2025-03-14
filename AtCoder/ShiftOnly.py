@@ -6,4 +6,5 @@ count = 0
 flag = 1
 
 while flag:
-    for i in rang
+    for i in range(l):
+        if arr[i] % 2 == 0 and arr[i] != 0:
