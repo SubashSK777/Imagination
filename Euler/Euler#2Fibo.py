@@ -1,11 +1,9 @@
 num1  = 0 
 num2 = 1
-n = 5
+n = 20
 
-print(num1 , end= " ")
-print(num2 , end= " ")
 
-summ = 
+summ = 0
 while n - 2 > 0 :
     temp = num1
     num1 = num2
