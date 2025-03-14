@@ -1,10 +1,11 @@
 n = int(input())
 arr = list(map(int, input().split()))
 l = len(arr)
+
 count = 0
 def shift(l, arr,count):
     
-    for i in range(l):
+    for i in range(len):
         if arr[i] % 2 == 0:
             arr[i] = arr[i]//2
         else:
