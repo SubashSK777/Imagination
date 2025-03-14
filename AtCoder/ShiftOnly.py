@@ -1,2 +1,2 @@
 n = int(input())
-arr = (input().split()
+arr = (map(int, input().split()))
