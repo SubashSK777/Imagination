@@ -10,4 +10,6 @@ while flag:
         if arr[i] % 2 == 0:
             arr[i] = arr[i]//2
         else:
-            print(cou)
+            print(count)
+            flag =
+            break
