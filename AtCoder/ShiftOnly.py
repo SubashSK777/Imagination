@@ -6,12 +6,13 @@ count = 0
 def shift(l, arr,count):
     
     for i in range(len(arr)):
-        if arr[i] % 2 == :
+        if arr[i] % 2 == 0:
             print(arr)
-            return count
+            
         
         else:
             arr[i] = arr[i]//2
+            
     count += 1
     shift(l, arr,count)
 
