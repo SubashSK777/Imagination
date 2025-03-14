@@ -2,13 +2,13 @@ n = int(input())
 arr = list(map(int, input().split()))
 l = len(arr)
 
-count = 0
+count = 3
 def shift(l, arr,count):
     
     for i in range(len(arr)):
-        if arr[i] % 2 == 0:
+        if arr[i] % 2 == 1:
             
-            return 
+            return count
         
         else:
             arr[i] = arr[i]//2
